@@ -45,7 +45,7 @@ const quiz = {
         },
         {
             "question": "Qu'est ce que le VIH ?",
-            "reponses": ["Virus de l’Immunodéficience Humaine", "sida", "test", "test2"],
+            "reponses": ["virus de l’immunodéficience humaine", "le sida", "vasculaire intéraction humaine", "véhicule intéractif à l'hotel"],
             "entre": [],
             "correct": "Virus de l’Immunodéficience Humaine"
         },
