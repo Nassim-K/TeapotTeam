@@ -87,7 +87,7 @@ const quiz = {
             "correct": "en parler avec un professionnel de santé"
         },
     ],
-        "Chiffres clés": [{
+    "Chiffres clés": [{
             "question": "Combien pensez-vous que de personnes sont atteintes du Sida dans le monde ?",
             "reponses": ["384 000", "38,4 000", "38,4 millions", "3"],
             "entre": [],
