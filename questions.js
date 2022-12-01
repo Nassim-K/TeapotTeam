@@ -67,6 +67,12 @@ const quiz = {
             "entre": [],
             "correct": "centres d’information de dépistage et de diagnostic des ist"
         },
+        {
+            "question": "Qu’est ce que l’IVG ?",
+            "reponses": ["infection via personnes gentilles", "interruption volontaire de grossesse", "infection et virus de gay", "institut virale pour gaulois"],
+            "entre": [],
+            "correct": "interruption volontaire de grossesse"
+        },
     ],
     "Sexualité": [{
             "question": "Quel type de comportement pourrait m’exposer à des IST ?",
