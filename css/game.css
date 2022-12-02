@@ -196,3 +196,56 @@ h1,h2,h3,h4,h5,h6{
     color:#fff;
     display:none;
   }
+  .paquet1{
+    position: absolute;
+    height: 13%;
+    width: 10%;
+    top:0;
+    left:0;
+
+  }
+  .paquet2{
+    position: absolute;
+    height: 13%;
+    width: 10%;
+    top:0;
+    left:0;
+    margin-left: 11%;
+    
+  }
+  .paquet3{
+    position: absolute;
+    height: 13%;
+    width: 10%;
+    top:0;
+    left:0;
+    margin-left: 22%;
+    
+  }
+  .paquet4{
+    height: 13%;
+    width: 10%;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left: 33%;
+    
+  }
+  .paquet5{
+    height: 13%;
+    width: 10%;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left: 44%;
+    
+  }
+  .paquet6{
+    height: 13%;
+    width: 10%;
+    position: absolute;
+    top:0;
+    left:0;
+    margin-left: 55%;
+    
+  }
