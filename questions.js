@@ -228,10 +228,6 @@ const quiz = {
             "entre": [],
             "correct":  "Faux"
         },
-
-
-
-
     ],
     "Chiffres clés": [{
             "question": "Combien pensez-vous que de personnes sont atteintes du Sida dans le monde ?",

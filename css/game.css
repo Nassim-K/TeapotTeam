@@ -22,12 +22,12 @@ h1,h2,h3,h4,h5,h6{
     text-align:center;
     margin-bottom:20px;
 }
-.grid-selection-nb-joueurs{
+.grid-selection-nb-joueurs,.grid-selection-reponse{
     display:grid;
     grid-gap:20px;
     grid-template-columns:repeat(auto-fill,minmax(236px,1fr));
 }
-.grid-selection-nb-joueurs .item{
+.grid-selection-nb-joueurs .item,.grid-selection-reponse .item{
     padding:20px;
     border:1px solid grey;
     border-radius:10px;
@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,h6{
     text-align:center;
     display:block;
 }
-.grid-selection-nb-joueurs .item span{
+.grid-selection-nb-joueurs .item span,.grid-selection-reponse .item span:not(.reponse){
     font-size:11px;
     color:grey;
     text-align:center;
