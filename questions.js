@@ -179,6 +179,13 @@ const quiz = {
             "entre": [],
             "correct": "Quelqu’un qui a le SIDA"
         },
+        {
+            "question": "La fellation sans préservatif représente t-elle un risque de transmission du VIH",
+            "reponses": ["Oui pour la personne qui fait la fellation", "Oui seulement si il y a éjaculation", "Oui pour les 2 personnes", "Oui pour la personne qui reçoit la fellation"],
+            "entre": [],
+            "correct":  "Oui pour la personne qui fait la fellation"
+        },
+
 
     ],
     "Chiffres clés": [{
@@ -291,6 +298,14 @@ const quiz = {
             "entre": [],
             "correct":  "Le virus du sida se transmet entre autre par le sperme, les sécrétions vaginales et le liquide séminal"
         },
+        {
+            "question": "Est-ce qu’un moustique peut transmettre le VIH",
+            "reponses": ["Oui si il est croisé avec une abeille", "Oui si c’est un moustique tigre", "Non les moustiques ne transmettent pas le VIH", "Oui tous les moutstiques"],
+            "entre": [],
+            "correct":  "Non les moustiques ne transmettent pas le VIH"
+        },
+
+
 
     ],
 }
