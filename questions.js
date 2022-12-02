@@ -141,7 +141,7 @@ const quiz = {
         {   "question": "Le papillomavirus peut provoquer",
             "reponses": ["Des cancers", "Le sida", "Un chancre", "De multiples spasmes"],
             "entre": [],
-            "correct":  "Souvent il n’y a pas de signes"
+            "correct":  "Un chancre"
         },
         {   "question": "Quelle est l’IST la plus répandue chez les jeunes",
             "reponses": ["La gonorrhée", "La syphilis", "La chlamydia", "Le VIH"],
