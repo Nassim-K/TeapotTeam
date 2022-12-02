@@ -1,0 +1,198 @@
+body{
+    background-color:#000 !important;
+    padding:0;
+    overflow:hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0 0 10px 0;
+}
+.popup{
+    background-color:#fff;
+    position:fixed;
+    width:50%;
+    padding:20px;
+    border-radius:10px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:none;
+    z-index:1;
+}
+.popup h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+.grid-selection-nb-joueurs{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(auto-fill,minmax(236px,1fr));
+}
+.grid-selection-nb-joueurs .item{
+    padding:20px;
+    border:1px solid grey;
+    border-radius:10px;
+}
+.grid-selection-nb-joueurs .item h2{
+    text-align:center;
+    display:block;
+}
+.grid-selection-nb-joueurs .item span{
+    font-size:11px;
+    color:grey;
+    text-align:center;
+    display:block;
+}
+.jeu{
+    background-color:black;
+    position:relative;
+}
+.jeu .pion{
+    width:5%;
+    position:absolute;
+    top:0;
+    left:0;
+    transform:translate(-50%,-50%);
+    transition:all 2s ease-in-out;
+    display:none;
+}
+.jeu .plateau{
+    width:100%;
+}
+.bottom{
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    gap:10px;
+    display:none;
+}
+.bottom .qui-joue{
+    display:flex;
+}
+.bottom .qui-joue .left{
+    background-color:#d60000;
+    color:#fff;
+    padding:10px;
+    border-radius:10px 0 0 0;
+}
+.bottom .qui-joue .left h3{
+    margin:0;
+}
+.bottom .qui-joue .right{
+    background-color:#af0000;
+    width:60px;
+    position:relative;
+    border-radius:0 10px 0 0;
+}
+.bottom .qui-joue .pion-bottom{
+    height:80px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+.bottom .joueurs-bottom{
+    display:flex;
+    gap:10px;
+}
+.bottom .joueurs-bottom .joueur-bottom{
+    position:relative;
+    width:60px;
+    background-color:#d60000;
+    border-radius:10px 10px 0 0;
+    display:none;
+}
+.bottom .joueurs-bottom .joueur-bottom .pion-bottom{
+    height:80px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.dice {
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom:20px;
+    right:20px;
+  }
+
+  .dice.center{
+    top:50%;
+    left:50%;
+    bottom:unset;
+    right:unset;
+    transform:translate(-50%,-50%);
+  }
+  
+  .dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: -10px 5px 5px -10px;
+    border-radius: 20px;
+    background-color: #f25f5c;
+    box-shadow: inset 2px 2px #d90429;
+  }
+  
+  .dice-one {
+  }
+  
+  .side {
+    position: absolute;
+    background-color: #fff;
+    border-radius:10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 2em;
+    display:none;
+  }
+
+  .side.one{
+    display:block;
+  }
+  
+  .two-1, .three-1, .four-1, .five-1, .six-1 {
+    top: 20%;
+    left: 20%; 
+  }
+  
+  .four-3, .five-3, .six-4 {
+    top: 20%;
+    left: 80%; }
+  
+  .one-1, .three-2, .five-5 {
+    top: 50%;
+    left: 50%; }
+  
+  .four-2, .five-2, .six-3 {
+    top: 80%;
+    left: 20%; }
+  
+  .two-2, .three-3, .four-4, .five-4, .six-6 {
+    top: 80%;
+    left: 80%; }
+  
+  .six-2 {
+    top: 50%;
+    left: 20%; }
+  
+  .six-5 {
+    top: 50%;
+    left: 80%; 
+  }
+
+  .titre{
+    position:absolute;
+    top:20px;
+    left:0;
+    right:0;
+    text-align:center;
+    margin:0;
+    color:#fff;
+    display:none;
+  }

@@ -50,7 +50,7 @@ const quiz = {
 
 
     ],
-    "Généralité": [{
+    "Général": [{
             "question": "Que veut dire IST ?",
             "reponses": ["institut salariale du travail", "infection sure de la trisomie", "infection sexuellement transmissible", "institut securisée du travail"],
             "entre": [],
@@ -141,7 +141,7 @@ const quiz = {
         {   "question": "Le papillomavirus peut provoquer",
             "reponses": ["Des cancers", "Le sida", "Un chancre", "De multiples spasmes"],
             "entre": [],
-            "correct":  "Souvent il n’y a pas de signes"
+            "correct":  "Un chancre"
         },
         {   "question": "Quelle est l’IST la plus répandue chez les jeunes",
             "reponses": ["La gonorrhée", "La syphilis", "La chlamydia", "Le VIH"],
@@ -217,7 +217,7 @@ const quiz = {
             "correct":  "Oui pour la personne qui fait la fellation"
         },
         {
-            "question": "Quels lubrifiant ne faut-il pas utiliser",
+            "question": "Quels lubrifiant faut-il utiliser",
             "reponses": ["Beurre de cacahuète", "Huile d’olive", "Lubrifiant a base de farine", "Lubrifiant à base d’eau ou de silicone"],
             "entre": [],
             "correct":  "Lubrifiant à base d’eau ou de silicone"
