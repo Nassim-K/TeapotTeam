@@ -11,68 +11,78 @@
 
 
 <body>
+
     <!-- Header -->
     <header>
-        <img class="logo_haut" src="https://cdn.discordapp.com/attachments/845005974724411392/1047943710597447810/logo_sis.jpeg" alt="Logo SIS association">
-        <button class="site_haut"><img src="https://www.sida-info-service.org/wp-content/themes/sis/img/logo-sis.png" alt=""></button>
+        <img class="logo_haut" src="https://cdn.discordapp.com/attachments/968437682072084520/1048034864672288788/justin_de_merde.png" alt="Logo SIS association">
+        <img class="site_haut" src="https://www.sida-info-service.org/wp-content/themes/sis/img/logo-sis.png" alt="Logo SIS association">
     </header>
-    <!--  Fin Header -->
-    <hr><br><br><p> </p>
+    <!-- Fin Header -->
+
     <!-- Main -->
     <main class="a">
+        <nav>
+            <div class="conteneur-nav">
+                <label for="mobile">Afficher / Cacher le menu</label>
+                <input type="checkbox" id="mobile" role="button">
+                <ul>
+                    <li class="deroulant"><a href="#">La course de la VIH &ensp;</a>
+                        <ul class="sous">
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="./perso.html">Les personnages</a></li>
+                            <li><a href="./jeu.html">Le jeu</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br><br><p> </p>
         <div class="container">
-            <div class="row jouer">
-                <div class="col-8">
-                    <button disabled="True" class="nom_du_jeu">Sidarrive le premier</button> <!-- Nom du jeu -->
-                </div>
-                <div class="col-4">
-                    <button class="bouton_jouer">Lancer le jeu</button> <!-- Bouton pour lancer le jeu -->
+            <div class="row col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 jeu">
+                <div>
+                    <h1 class="nom">La Course de ta VIH</h1> <!-- Nom du jeu -->
                 </div>
             </div>
+            <br><br><p> </p>
+            <div class="row ">
+                <div class="col-4">
+                    <p> </p>
+                </div>
+                <div class="col-6 jeu">
+                    <a href="./jeu.html" class="bouton_jouer">Lancer le jeu</a> <!-- Bouton pour lancer le jeu -->
+                </div>
+            </div>
+            <br><br><p> </p>
             <div class="row regle">
                 <div class="col-12">
+                    <span>Fait à la nuit de l'informatique 2022 le 02/12/22 par Mehdi JESOPHE SANCHEZ (Graphiste), Paco POYO (Html), Thomas SILVESTRE (Questions), Justin DELPECH (Html, css), Théo MONGENIE (Questions JS), Emad ALRAMIMI (JS), Nassim KHOUJANE (JS).</span>
+                    <br>
                     <br>
                     <p class="titre_regle">Règles du jeu :</p> <!-- Règles du jeu -->
                     <br> 
-                    <p class="regle_1">Le [NOM DU JEU ] est un jeu qui à pour but de sensibiliser les jeunes adultes ( mais aussi les plus âgés ) aux problématiques liées à la santé sexuelle. Inspiré du Trivial Poursuite, ce jeu saura montrer les enjeux autour de cette thématique de façon ludique en proposant aux joueurs de nombreuses questions.
+                    <p class="regle_1">La course de ta VIH est un jeu qui à pour but de sensibiliser les jeunes adultes ( mais aussi les plus âgés ) aux problématiques liées à la santé sexuelle. Inspiré du Trivial Poursuite, ce jeu saura montrer les enjeux autour de cette thématique de façon ludique en proposant aux joueurs de nombreuses questions.
                     </p>
                     <br> 
                     <p class="regle_2" >Le but du jeux est d’arriver le premier à la fin du circuit. 
                     Les joueurs lancent le dés chacun leurs tour et avancent du nombre de case correspondantes. 
                     En fonction de la couleur de la case. Sur chaque case, une question est posée au joueur de divers thèmes :
-                    <li> Les protections</li>
-                    <li> La sexualité</li>
-                    <li> Des chiffres clés</li>
-                    <li> La contagion</li>
-                    <li> Le dépistage</li>
-                    <li> blablablabla</li>
-                        Si le joueurs répond correctement, il avance de deux cases, sinon il reste à sa place.
-                    </p>
+                    <li>Protection</li>
+                    <li>Général</li>
+                    <li>Depistage</li>
+                    <li>Chiffre Clé</li>
+                    <li>Contamination</li>
+                    <p>Si le joueurs répond correctement, il reste sur la case, sinon il recul de deux</p> 
                 </div>
             </div>
             </div>
         </div>
-        <div class="row jeu"> <!-- Image du plateau de jeu de démonstration -->
+        <div class="row imagejeu"> <!-- Image du plateau de jeu de démonstration -->
             <div class="col-12"> 
                 <img class="image_plateau" src="https://toutpourlejeu.com/2408-home_default/plateau-oie-neutre-gratuit-a-imprimer-a-telecharger.jpg" alt="">
             </div>
         </div>
+        <br><br><p> </p>
     </main>
     <!-- Fin Main -->
-
-
-    <footer class="bg-dark text-center text-white">
-        <section class="bas">    <!-- Section: Social media -->
-            <!-- Facebook -->
-            <a class="col-3 btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-facebook-f">Facebook</i></a>
-
-            <!-- Twitter -->
-            <a class="col-3 btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-twitter">Instagram</i></a>
-
-            <!-- Google -->
-            <a class="col-3 btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-google">Twitter</i></a>
-        </section>
-    <br><br><p> </p>
-    </footer>
 </body>
 </html>

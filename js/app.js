@@ -609,10 +609,8 @@ function demarrerPartie(){
                     });
 
                     if(tour < nbJoueurs){
-                        console.log('ok1')
                         tour += 1;
                     }else{
-                        console.log('ok2')
                         tour = 1;
                     }
     
