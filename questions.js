@@ -222,6 +222,13 @@ const quiz = {
             "entre": [],
             "correct":  "Lubrifiant à base d’eau ou de silicone"
         },
+        {
+            "question": "Si je ne vais pas jusqu'à la pénétration, il est impossible que j’attrape une IST",
+            "reponses": ["Vrai", "Cela dépend de la météo", "Faux", "peut-être"],
+            "entre": [],
+            "correct":  "Faux"
+        },
+
 
 
 
