@@ -209,6 +209,13 @@ const quiz = {
             "entre": [],
             "correct":  "Oui pour la personne qui fait la fellation"
         },
+        {
+            "question": "Quels lubrifiant ne faut-il pas utiliser",
+            "reponses": ["Beurre de cacahuète", "Huile d’olive", "Lubrifiant a base de farine", "Lubrifiant à base d’eau ou de silicone"],
+            "entre": [],
+            "correct":  "Lubrifiant à base d’eau ou de silicone"
+        },
+
 
 
     ],
