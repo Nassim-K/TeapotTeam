@@ -41,6 +41,13 @@ const quiz = {
             "entre": [],
             "correct":  "Oui en centre de planning familial"
         },
+        {
+            "question": "Combien de temps avant un rapport sexuel le préservatif interne peut-il être placé ? ",
+            "reponses": ["Directement avant le rapport sexuel", "Plusieurs heures avant", "1 mois avant", "2 mois avant"],
+            "entre": [],
+            "correct":  "Plusieurs heures avant"
+        },
+
 
     ],
     "Généralité": [{
@@ -347,6 +354,13 @@ const quiz = {
             "entre": [],
             "correct":  "Un carré de latex"
         },
+        {
+            "question": "Une personne séronégative peut-elle prendre des médicaments avant et après un rapport sexuel pour ne pas être infectée par le VIH",
+            "reponses": ["Non, rien ne peut nous protéger du VIH", "Oui du doliprane", "Oui c’est la prophylaxie pré-exposition", "Manger un avocat suffit (pas le métier)"],
+            "entre": [],
+            "correct":  "Oui c’est la prophylaxie pré-exposition"
+        },
+
 
 
 
