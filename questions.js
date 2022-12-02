@@ -367,10 +367,5 @@ const quiz = {
             "entre": [],
             "correct":  "Oui c’est la prophylaxie pré-exposition"
         },
-
-
-
-
-
     ],
 }
