@@ -341,6 +341,13 @@ const quiz = {
             "entre": [],
             "correct":  "Oui si la charge virale est indétectable"
         },
+        {
+            "question": "Quel moyen de protection puis-je utiliser pour faire un cunnilingus de manière protégée",
+            "reponses": ["Préservatif féminin", "Un carré de latex", "Bouchon de bouteille", "Une chaussette"],
+            "entre": [],
+            "correct":  "Un carré de latex"
+        },
+
 
 
 
