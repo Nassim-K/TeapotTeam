@@ -35,6 +35,13 @@ const quiz = {
             "entre": [],
             "correct":  "Non"
         },
+        {
+            "question": "Puis-je recevoir des préservatifs gratuitements",
+            "reponses": ["Non, il faut débourser 10€ par préservatif", "Oui en pharmacie", "Oui en centre de planning familial", "Oui ceux qui sont par terre"],
+            "entre": [],
+            "correct":  "Oui en centre de planning familial"
+        },
+
     ],
     "Généralité": [{
             "question": "Que veut dire IST ?",
@@ -320,6 +327,12 @@ const quiz = {
             "reponses": ["Oui si il est croisé avec une abeille", "Oui si c’est un moustique tigre", "Non les moustiques ne transmettent pas le VIH", "Oui tous les moutstiques"],
             "entre": [],
             "correct":  "Non les moustiques ne transmettent pas le VIH"
+        },
+        {
+            "question": "Puis-je avoir un rapport sexuel avec une personne atteinte du VIH sans l’attraper",
+            "reponses": ["Oui si la charge virale est indétectable", "Oui si la personne n’a pas eu de rapports depuis 2 ans", "Oui si il n’y a pas d’éjaculation", "Non car le VIH empêche les rapports"],
+            "entre": [],
+            "correct":  "Oui si la charge virale est indétectable"
         },
 
 
