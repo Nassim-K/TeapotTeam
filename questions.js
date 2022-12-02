@@ -17,7 +17,24 @@ const quiz = {
             "entre": [],
             "correct":  "L’hépatite B et le papillomavirus"
         },
-
+        {
+            "question": "Pourquoi faut-il pincer le réservoir du préservatif",
+            "reponses": ["Pour en chasser l’air", "Pour donner plus de plaisir", "Pour rigoler", "Pour passer le temps"],
+            "entre": [],
+            "correct":  "Pour en chasser l’air"
+        },
+        {
+            "question": "Est-ce que je peux réutiliser une préservatif",
+            "reponses": ["Oui si je le lave", "Oui, en moyenne 3 fois", "Non", "Oui si il n’y a pas eu d’éjaculation"],
+            "entre": [],
+            "correct":  "Pour en chasser l’air"
+        },
+        {
+            "question": "Le préservatif protège t’il contre toutes les IST ?",
+            "reponses": ["Oui", "Non", "Oui sauf le VIH", "Oui sauf la chlamydia"],
+            "entre": [],
+            "correct":  "Non"
+        },
     ],
     "Généralité": [{
             "question": "Que veut dire IST ?",
